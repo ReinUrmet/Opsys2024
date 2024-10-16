@@ -1,4 +1,4 @@
-Selles praktikumis tegelesin windowsiga ja selle turvaliseks muutmisega. Muidu sujus kõik seekord väga hasti aga 4.10 ei saanud ma tehtud.
+Selles praktikumis tegelesin windowsiga ja selle turvaliseks muutmisega. Muidu sujus kõik seekord väga hasti aga 4.10 ei saanud ma tehtud. Mul läks selleks praktikumiks aega 6h.
 
 ülesanne 4-6: Mul soovitab Microsoft teha kiirtest viiruste scanimiseks ja sisse lülitada mainepõhine kaitse, et seadet kaitsta.
 
