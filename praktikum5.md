@@ -6,3 +6,5 @@ a) alguses andsin kaustale kõik õigused uuesti kasutades: chmod 700 /tmp/kaust
 b)Nende õigustega sain kustutada faili kasutades: rm /tmp/kaust/minufail.txt. Seejärel lõin kirjutasin faili tagasi: kasutades echo "Rein Urmet" > /tmp/kaust/minufil ja see lõi tagasi faili. Aga kui muutsin kausta õigusi kasutades: chmod 500 /tmp/kaust/minufail.txt, sellega võtsin ära kirjutamis õigused ja peale seda ei saanud faili kustutada. Kokkuvõtteks: omanikul on vaja kausa õiguseid w ja x, et faili kustutada.
 
 Ül 5.2 - Ülesandes on küsitud: Miks chmod a=x skriptifail ei ole piisav õigus shelli skriptifaili käivitamiseks? Vastus: See ei anna piisavaid õigusi, sest see annab ainult x õigused ehk execution rights, aga sul puudub lugemis õigused mistõttu ei saa shell lugeda skriptifaili sisu ja seetõttu ei tea mis käsklusi täita.
+
+Ül 5.3 - Miks on igal kasutajal oma grupp? Vastus: Igal kasutajal on oma grupp kuna nii on lihtsam failiõigusi hallata, turvalisuse mõttes, see isoleerib kasutaja andmed.
