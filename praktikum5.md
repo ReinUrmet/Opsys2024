@@ -8,3 +8,16 @@ b)Nende õigustega sain kustutada faili kasutades: rm /tmp/kaust/minufail.txt. S
 Ül 5.2 - Ülesandes on küsitud: Miks chmod a=x skriptifail ei ole piisav õigus shelli skriptifaili käivitamiseks? Vastus: See ei anna piisavaid õigusi, sest see annab ainult x õigused ehk execution rights, aga sul puudub lugemis õigused mistõttu ei saa shell lugeda skriptifaili sisu ja seetõttu ei tea mis käsklusi täita.
 
 Ül 5.3 - Miks on igal kasutajal oma grupp? Vastus: Igal kasutajal on oma grupp kuna nii on lihtsam failiõigusi hallata, turvalisuse mõttes, see isoleerib kasutaja andmed.
+
+Ül 5.6 - jah, esiteks: Tavaline kasutaja võib saada kõrgemaid õigusi ja pääseda tundlikule infole, naiteks pääseks juku isa kõikide õpilaste hinnetele ligi mis oleks andmelekke. teiseks: Ründajad saavad käivitada ohtlikke skripte, kasutades kõrgemaid õigusi. 
+
+Ül 5.7 - Peeter saab ise faili kustutada ja teised kasutajad nagu näiteks opetaja ja jukuisa saavad s
+
+eda kustutada ainult siis kui anda neile oma failide omandiõiguse.
+
+Ül 5.9 - chattr +i-parameetriga faili saab kustutada ainult root kasutaja ja kidas seda kustutasin panen alla pildina.
+
+<img width="959" alt="praktikum5 4" src="https://github.com/user-attachments/assets/b33086a7-5310-4c1b-8ade-55963626a205">
+<img width="674" alt="praktikum5 5" src="https://github.com/user-attachments/assets/96831c17-708d-499b-9593-9d91c2147000">
+<img width="656" alt="praktikum5 8" src="https://github.com/user-attachments/assets/5ccfcdab-9ab6-4fdf-98e3-101ae906392f">
+<img width="425" alt="praktikum5 9" src="https://github.com/user-attachments/assets/76e4255b-812d-434e-999e-c09788c32acb">
