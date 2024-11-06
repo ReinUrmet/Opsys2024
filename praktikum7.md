@@ -9,5 +9,10 @@ Küsimus 3.10:
 <img width="959" alt="praks7 3 10" src="https://github.com/user-attachments/assets/dfda361e-77af-4f7c-9570-431c45271cfa">
 
 
-Küsimus 11.5: -o ro tähendab, et see USB on ainult lugemiseks ja -t auto tähendab, et süsteem peab automaatselt tuvastama USB pulga failisüsteemi tüübi
-Küsimus 11.6: ubuntu asendas auto parameetri exfat parameetriga
+Küsimus 11.5:
+-o ro tähendab, et see USB on ainult lugemiseks ja -t auto tähendab, et süsteem peab automaatselt tuvastama USB pulga failisüsteemi tüübi
+Küsimus 11.6: 
+ubuntu asendas auto parameetri exfat parameetriga
+
+6 punkti juures andis mul ubuntu otsad niiet pidin kaks korda tegema. 
+<img width="617" alt="praktikum7 6 1" src="https://github.com/user-attachments/assets/b4bbe6dd-165e-48d9-b817-bfa80c6f8483">
