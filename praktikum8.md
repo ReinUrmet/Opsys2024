@@ -1,6 +1,7 @@
 
 ![Kuvatõmmis 2024-10-29 170740](https://github.com/user-attachments/assets/20a98fef-624a-4a2c-9f76-fee420a4e6da)
 ![Kuvatõmmis 2024-10-29 171223](https://github.com/user-attachments/assets/d3e74ee7-64b1-4416-af5c-f88c67f8e5d3)
+<img width="959" alt="praktikum8 2 13" src="https://github.com/user-attachments/assets/00050917-1bff-4548-b0d9-dc07f77b0152">
 <img width="950" alt="praktikum8 3 1 1" src="https://github.com/user-attachments/assets/3763209b-70f8-4eec-bf67-f3f2f00e8fc5">
 <img width="959" alt="praktikum8 3 1 2" src="https://github.com/user-attachments/assets/94b5e532-add8-42ef-9c38-698a2eb2851c">
 <img width="959" alt="praktikum8 3 2" src="https://github.com/user-attachments/assets/bc12d656-cac9-4949-8f18-13a23792d81e">
