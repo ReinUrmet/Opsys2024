@@ -6,9 +6,9 @@
 |------------------------------------------|--------------------------------------|---------------------------------------------------------------|
 | **Mitu protsessi kokku arvutis käib?**   | `191`                                | `ps -e , wc -l` (Linux) / Task Manager > Processes (Windows)   |
 | **Kõige esimesena käivitatud protsess**  | `Minu arvutis oli esimene tööle pandud programm Secure system  | `ps -p 1` (Linux) / Task Manager > Details (Windows), või see mis mina kasutasin on windowsi terminalis: 'wmic process get name,creationdate / sort'          |
-| **Kasutajad, kelle protsesse arvutis käib** | `root, user1` | `ps -eo user | sort -u` (Linux) / Task Manager > Users (Windows) |
-| **Arvuti järjest töötamise aeg (uptime)** | `5 days, 4:30:12` | `uptime` (Linux) / Task Manager > Performance > Up Time (Windows) |
-| **Viimati käivitatud protsess**          | `nano`                               | `ps -eo pid,etime,cmd --sort=-etime | head -n 1` (Linux) / Task Manager > Details > Start Time (Windows) |
+| **Kasutajad, kelle protsesse arvutis käib** | `Rein Urmet` | `ps -eo user | sort -u` (Linux) / Task Manager > Users (Windows) |
+| **Arvuti järjest töötamise aeg (uptime)** | `7 tundi ja 37 min` | `uptime` (Linux) / Task Manager > Performance > Up Time (Windows) või kirjutad systeminfo terminali ja otsid "System Boot Time" ja arvutad |
+| **Viimati käivitatud protsess**          | `WmiPrvSE.exe ehk WMI Provider Host` | `ps -eo pid,etime,cmd --sort=-etime | head -n 1` (Linux) / Task Manager > Details > Start Time (Windows) |
 | **Kõige rohkem protsessoriaega kasutav protsess** | `firefox (40%)` | `top` või `htop` (Linux) / Task Manager > Details > CPU (Windows) |
 | **Kõige rohkem virtuaalmälu kasutav protsess** | `java (4 GB)` | `top -o VIRT` (Linux) / Task Manager > Details > Commit Size (Windows) |
 | **Kõige rohkem füüsilist mälu kasutav protsess** | `chrome (2.5 GB)` | `top -o RES` (Linux) / Task Manager > Details > Memory (Windows) |
