@@ -5,7 +5,7 @@
 | Küsimus                                  | Vastus                               | Linuxi käsk / Windowsi programm ja väli                        |
 |------------------------------------------|--------------------------------------|---------------------------------------------------------------|
 | **Mitu protsessi kokku arvutis käib?**   | `191`                                | `ps -e , wc -l` (Linux) / Task Manager > Processes (Windows)   |
-| **Kõige esimesena käivitatud protsess**  | `Minu arvutis oli esimene tööle pandud programm Secure system  | `ps -p 1` (Linux) / Task Manager > Details (Windows), või see mis mina kasutasin on windowsi terminalis: 'wmic process get name,creationdate | sort'          |
+| **Kõige esimesena käivitatud protsess**  | `Minu arvutis oli esimene tööle pandud programm Secure system  | `ps -p 1` (Linux) / Task Manager > Details (Windows), või see mis mina kasutasin on windowsi terminalis: 'wmic process get name,creationdate / sort'          |
 | **Kasutajad, kelle protsesse arvutis käib** | `root, user1` | `ps -eo user | sort -u` (Linux) / Task Manager > Users (Windows) |
 | **Arvuti järjest töötamise aeg (uptime)** | `5 days, 4:30:12` | `uptime` (Linux) / Task Manager > Performance > Up Time (Windows) |
 | **Viimati käivitatud protsess**          | `nano`                               | `ps -eo pid,etime,cmd --sort=-etime | head -n 1` (Linux) / Task Manager > Details > Start Time (Windows) |
