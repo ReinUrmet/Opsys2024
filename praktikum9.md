@@ -15,8 +15,8 @@
 | **Füüsilise mälu vaba ja hõivatud kogus** | `Vaba: 7.2 GB, Hõivatud: 8.1 GB` | `free -h` (Linux) / Task Manager > Performance > Memory (Windows) |
 | **Vaba kettaruum põhikettal (/ või C:)** | `262 GB` | `df -h /` (Linux) / Disk Management või File Explorer (Windows) |
 | **Kõige suurem fail ja kaust**           | Fail: `OS-_Urmet-W11)`, Kaust: `Virtualboxiga seotud failid` | `du -a / | sort -n -r | head -n 10` (Linux) / WinDirStat (Windows) |
-| **CPU kasutus sha1sum testidega**        | `/dev/zero: 95% us, /dev/urandom: 80% sy` | `top`, `sha1sum` (Linux) / Task Manager > Details > CPU (Windows) |
-| **Võrguühendust kasutavad protsessid**   | `firefox, sshd`                      | `lsof -i` või `netstat -tulpn` (Linux) / Resource Monitor > Network (Windows) |
-| **Kõige rohkem ketta aktiivsust tekitav protsess** | `updatedb` | `iotop` (Linux) / Resource Monitor > Disk (Windows)            |
-| **Peamine andmekandja failisüsteem ja tüüp** | `/, ext4`                           | `df -T /` (Linux) / Disk Management > Properties (Windows)    |
+| **CPU kasutus sha1sum testidega**        | `Ei osanud/ei saanud aru` | `top`, `sha1sum` (Linux) / Task Manager > Details > CPU (Windows) |
+| **Võrguühendust kasutavad protsessid**   | `SearchHost.exe`| `lsof -i` või `netstat -tulpn` (Linux) / Resource Monitor > Network (Windows) |
+| **Kõige rohkem ketta aktiivsust tekitav protsess** | `System` | `iotop` (Linux) / Resource Monitor > Disk (Windows)            |
+| **Peamine andmekandja failisüsteem ja tüüp** | `NTFS`| `df -T /` (Linux) / Disk Management > Properties (Windows)    |
 
