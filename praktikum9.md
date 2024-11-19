@@ -11,10 +11,10 @@
 | **Viimati käivitatud protsess**          | `WmiPrvSE.exe ehk WMI Provider Host` | `ps -eo pid,etime,cmd --sort=-etime / head -n 1` (Linux) / Task Manager > Details > Start Time (Windows) |
 | **Kõige rohkem protsessoriaega kasutav protsess** | `tegumihaldus (5%)` | `top` või `htop` (Linux) / Task Manager > Details > CPU (Windows) |
 | **Kõige rohkem virtuaalmälu kasutav protsess** | `Microsoft edge` | `top -o VIRT` (Linux) / Task Manager > Details > Commit Size (Windows) |
-| **Kõige rohkem füüsilist mälu kasutav protsess** | `chrome (2.5 GB)` | `top -o RES` (Linux) / Task Manager > Details > Memory (Windows) |
-| **Füüsilise mälu vaba ja hõivatud kogus** | `Vaba: 2 GB, Hõivatud: 6 GB` | `free -h` (Linux) / Task Manager > Performance > Memory (Windows) |
-| **Vaba kettaruum põhikettal (/ või C:)** | `50 GB (40%)` | `df -h /` (Linux) / Disk Management või File Explorer (Windows) |
-| **Kõige suurem fail ja kaust**           | Fail: `movie.mkv (15 GB)`, Kaust: `Downloads (50 GB)` | `du -a / | sort -n -r | head -n 10` (Linux) / WinDirStat (Windows) |
+| **Kõige rohkem füüsilist mälu kasutav protsess** | `Microsoft edge` | `top -o RES` (Linux) / Task Manager > Details > Memory (Windows) |
+| **Füüsilise mälu vaba ja hõivatud kogus** | `Vaba: 7.2 GB, Hõivatud: 8.1 GB` | `free -h` (Linux) / Task Manager > Performance > Memory (Windows) |
+| **Vaba kettaruum põhikettal (/ või C:)** | `262 GB` | `df -h /` (Linux) / Disk Management või File Explorer (Windows) |
+| **Kõige suurem fail ja kaust**           | Fail: `OS-_Urmet-W11)`, Kaust: `Virtualboxiga seotud failid` | `du -a / | sort -n -r | head -n 10` (Linux) / WinDirStat (Windows) |
 | **CPU kasutus sha1sum testidega**        | `/dev/zero: 95% us, /dev/urandom: 80% sy` | `top`, `sha1sum` (Linux) / Task Manager > Details > CPU (Windows) |
 | **Võrguühendust kasutavad protsessid**   | `firefox, sshd`                      | `lsof -i` või `netstat -tulpn` (Linux) / Resource Monitor > Network (Windows) |
 | **Kõige rohkem ketta aktiivsust tekitav protsess** | `updatedb` | `iotop` (Linux) / Resource Monitor > Disk (Windows)            |
