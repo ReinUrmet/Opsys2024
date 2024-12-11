@@ -27,7 +27,7 @@ for fail in *"$laiend1"; do
 done
 
 <img width="400" alt="Praktikum12 5" src="https://github.com/user-attachments/assets/44940556-63b1-4a9e-ab0a-8fc40d675176">
-<img width="440" alt="praktikum12 5 2" src="https://github.com/user-attachments/assets/fac47199-f9af-45b3-896e-21ff0fac7cd4">
+
 Ülessanne 5 kood:
 #!/bin/bash
 if [ -z "$1" ]; then
@@ -56,7 +56,7 @@ if [ $leidusid -eq 0 ]; then
 fi
 
 <img width="428" alt="praktikum12 6 1" src="https://github.com/user-attachments/assets/ee910c5c-2151-4417-87d8-1b981cf372b2">
-<img width="325" alt="praktikum12 6 2" src="https://github.com/user-attachments/assets/01e9bea5-50e7-4956-87c1-8d33ef15d736">
+
 Ülessanne 6 kood: 
 #!/bin/bash
 
