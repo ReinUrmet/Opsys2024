@@ -1,0 +1,1 @@
+Mul kahjuks selle praktikumi ül 5 on tegemata, sest tuleb error kui kirjutan: rein [ ~ ]$ az vm extension set --resource-group 'urmet-vm_group' --vm-name 'urmet-vm' --name WindowsOpenSSH --publisher Microsoft.Azure.OpenSSH --version 2.0
